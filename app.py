@@ -31,7 +31,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 @app.route("/")
 def index_get():
-    return render_template("base.html")
+    return render_template("index11.html")
 
 #@app.route("/get")
 @app.route("/predict",methods = ["POST"])
