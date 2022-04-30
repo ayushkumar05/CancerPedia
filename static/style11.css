@@ -6,6 +6,9 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
 }
+p{
+  color: whitesmoke;
+}
 
 *,
 html {
@@ -518,7 +521,8 @@ h1 {
 .show-modal3 {
   font-size: 2rem;
   font-weight: 600;
-  padding: 1.75rem 3.5rem;
+  padding: 5%;
+
   align-items: bottom;
   border: none;
   background-color: #fff;
