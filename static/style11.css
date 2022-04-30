@@ -531,7 +531,40 @@ h1 {
   cursor: pointer;
   z-index: 1234567;
 }
+#machinelearning {
+  font-size: 8vh;
+}
 
+.redirect {
+  font: 10vh;
+}
+
+.redirect {
+  background-color: #ec1e65; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  /* padding: 10px 100%; */
+  /* -ms-transform: translate(-50%, -50%); */
+  /* transform: translate(-50%, -50%); */
+  margin-left: 46%;
+}
+
+.redirect:hover {
+  background-color: #f53377;
+}
+
+#mlpara {
+  font-size: 25px;
+  /* width: 90%; */
+  margin: 50px;
+  text-align: center;
+}
 .close-modal1,
 .close-modal2,
 .close-modal3 {
