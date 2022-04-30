@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="tab.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ml models</title>
+</head>
+<body>
+
+    <h1>
+        Implementation example of ML models 
+    </h1>
+    
+    <div class="tabs">
+      <div class="tab-2">
+        <label for="tab2-1">Lung Cancer Detection</label>
+        <input id="tab2-1" name="tabs-two" type="radio" checked="checked">
+        <div>
+          <h4>Lung Cancer Detection</h4>
+          <form method="post" enctype="multipart/form-data" >
+            <input type="file" name="file1" />
+            <!--div style = "padding-left:30%; padding-top: 10%;" -->
+            <input type="submit"/>
+            <!--/div-->
+        </form>
+        <h3>
+            Status: {{DATA}}
+        </h3>
+        </div>
+      </div>
+      <div class="tab-2">
+        <label for="tab2-2">Brain tumour detection</label>
+        <input id="tab2-2" name="tabs-two" type="radio">
+        <div>
+          <h4>Brain tumour detection</h4>
+          <form method="post" enctype="multipart/form-data" >
+            <input type="file" name="file1" />
+            <!--div style = "padding-left:30%; padding-top: 10%;" -->
+            <input type="submit"/>
+            <!--/div-->
+        </form>
+        <h3>
+            Status: {{DATA}}
+        </h3>
+        </div>
+      </div>
+    </div>
+</body>
+
+
+
+
+</html>

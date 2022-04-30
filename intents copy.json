@@ -1,0 +1,138 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "Cancer",
+      "patterns": [
+        "Cancer?",
+        "What is Cancer?"
+      ],
+      "responses": [
+        "Cancer is a disease in which some of the body’s cells grow uncontrollably and spread to other parts of the body.",
+        "Cancer is a genetic disease—that is, it is caused by changes to genes that control the way our cells function, especially how they grow and divide.",
+        "Sometimes this orderly process breaks down, and abnormal or damaged cells grow and multiply when they shouldn’t. These cells may form tumors, which are lumps of tissue. Tumors can be cancerous or not cancerous (benign)"
+      ]
+    },
+    {
+      "tag":"Benign Cancer",
+      "patterns": [
+        "What is benign cancer?",
+        "Benign Cancer",
+        "Cancer type benign"
+      ],
+      "responses":[
+        "A benign tumor is an abnormal but noncancerous collection of cells. It can form anywhere on or in your body when cells multiply more than they should or don't die when they should"      ]
+    },
+    {
+      "tag": "hospital",
+      "patterns": [
+        "hospital near me",
+        "which is the nearest hospital?",
+        "medical emergency",
+        "where can i get tested for cancer?",
+        "cancer test"
+        
+      ],
+      "responses": [
+        "https://www.google.com/maps/search/hospital+near+me/"
+      ]
+    },
+    {
+      "tag":"home remedies",
+      "patterns": [
+        "Cancer Treatment at home",
+        "can cancer be cured at home?",
+        "home remedies to cure cancer",
+        "cancer treatment without hospitl"
+        
+      ],
+      "responses": [
+        "Cancer can not be completely treated at home but many remedies exist to ease the situation. You can consider these remedies if your doctor allows for the same: Ginger can help you manage nausea and vomiting from chemotherapy. But it may also thin your blood, so don't take any before surgery.Zinc may help prevent taste changes, a side effect of radiation, chemotherapy, and some pain medicines.Astragalus might ease the side effects of chemotherapy, such as nausea and vomiting, if you have colorectal cancer. But it also stops some medicines from working like they should."
+      ]
+    },
+    {
+      "tag":"MonetaryIssues",
+      "patterns": [
+        "Help for payment of cancer treatment",
+        "Goverment Schemes for cancer treatment",
+        "does goverment help pay for cancer treatment?",
+        "need help to pay for cancer treatment"
+        
+      ],
+      "responses": [
+        "Here are some government schemes that can help fund your cancer treatment. <br> 1. Health Minister's Cancer Patient Fund <br> 2. The Health Minister's Discretionary Grants <br> 3. The Central Government Health Scheme (CGHS) <br> 4. National Health Protection Scheme <br> 5. The Prime Minister's National Relief Fund <br> 6. State Illness Assistance Fund <br>  7. The Chief Minister's Relief Fund "
+      ]
+    }
+
+    
+    
+  ]
+}
+

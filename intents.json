@@ -32,40 +32,15 @@
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
-      "tag": "items",
+      "tag": "info",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Which are you?",
+        "What do you do?",
+        "who you?",
+        "what is your purpose?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
-    },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "I am a ChatBot designed to help provide accurate and accesible information related to Cancer. :-)"
       ]
     },
     {
@@ -79,6 +54,546 @@
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "What did the buffalo say when his son left for college? Bison."
       ]
-    }
+    },
+    {
+      "tag": "Cancer",
+      "patterns": [
+        "Cancer?",
+        "What is Cancer?",
+        "Tell me about cancer"
+      ],
+      "responses": [
+        "Cancer is a disease in which some of the body's cells grow uncontrollably and spread to other parts of the body.",
+        "Cancer is a genetic disease that is, it is caused by changes to genes that control the way our cells function, especially how they grow and divide.",
+        "Sometimes this orderly process breaks down, and abnormal or damaged cells grow and multiply when they shouldn't. These cells may form tumors, which are lumps of tissue. Tumors can be cancerous or not cancerous (benign)"
+      ]
+    },
+    {
+      "tag":"Benign vs malligant",
+      "patterns": [
+        "Benign vs malligant",
+        "Difference between benign and malligant cancer"
+      ],
+      "responses":[
+        "A benign tumor has distinct, smooth, regular borders. A malignant tumor has irregular borders and grows faster than a benign tumor. A malignant tumor can also spread to other parts of your body. A benign tumor can become quite large, but it will not invade nearby tissue or spread to other parts of your body.",
+        "Benign tumors, while sometimes painful and potentially dangerous, do not pose the threat that malignant tumors do"
+      ]
+    },
+    {
+      "tag":"Benign Cancer",
+      "patterns": [
+        "What is benign cancer?",
+        "Benign Cancer",
+        "Cancer type benign"
+      ],
+      "responses":[
+        "A benign tumor is an abnormal but noncancerous collection of cells. It can form anywhere on or in your body when cells multiply more than they should or don't die when they should"      ]
+    },
+    {
+      "tag": "hospital",
+      "patterns": [
+        "hospital near me",
+        "which is the nearest hospital?",
+        "medical emergency",
+        "where can i get tested for cancer?",
+        "cancer test"
+        
+      ],
+      "responses": [
+        "<a href=\"https://www.google.com/maps/search/hospital+near+me/\">Hospitals Near you</a>"
+      ]
+    },
+    {
+      "tag":"home remedies",
+      "patterns": [
+        "Cancer Treatment at home",
+        "can cancer be cured at home?",
+        "home remedies to cure cancer",
+        "cancer treatment without hospitl"
+        
+      ],
+      "responses": [
+        "Cancer can not be completely treated at home but many remedies exist to ease the situation. You can consider these remedies if your doctor allows for the same: Ginger can help you manage nausea and vomiting from chemotherapy. But it may also thin your blood, so don't take any before surgery.Zinc may help prevent taste changes, a side effect of radiation, chemotherapy, and some pain medicines.Astragalus might ease the side effects of chemotherapy, such as nausea and vomiting, if you have colorectal cancer. But it also stops some medicines from working like they should."
+      ]
+    },
+    {
+      "tag":"MonetaryIssues",
+      "patterns": [
+        "Help for payment of cancer treatment",
+        "Goverment Schemes for cancer treatment",
+        "does goverment help pay for cancer treatment?",
+        "need help to pay for cancer treatment"
+        
+      ],
+      "responses": [
+        "Here are some government schemes that can help fund your cancer treatment. <br> 1. Health Minister's Cancer Patient Fund <br> 2. The Health Minister's Discretionary Grants <br> 3. The Central Government Health Scheme (CGHS) <br> 4. National Health Protection Scheme <br> 5. The Prime Minister's National Relief Fund <br> 6. State Illness Assistance Fund <br>  7. The Chief Minister's Relief Fund "
+      ]
+    },
+
+ {
+  "tag": "Cancer",
+  "patterns": [
+    "Cancer?",
+    "What is Cancer?"
+  ],
+  "responses": [
+    "Cancer is a disease in which some of the bodys cells grow uncontrollably and spread to other parts of the body.",
+    "Cancer is a genetic disease—that is, it is caused by changes to genes that control the way our cells function, especially how they grow and divide.",
+    "Sometimes this orderly process breaks down, and abnormal or damaged cells grow and multiply when they shouldnt. These cells may form tumours, which are lumps of tissue. Tumours can be cancerous or not cancerous (benign)"
+  ]
+},
+{
+  "tag": "Benign Cancer",
+  "patterns": [
+    "What is benign cancer?",
+    "Benign Cancer",
+    "Cancer type benign"
+  ],
+  "responses": [
+    "A benign tumor is an abnormal but noncancerous collection of cells. It can form anywhere on or in your body when cells multiply more than they should or don't die when they should"
+  ]
+},
+{
+  "tag": "Benign vs malligant",
+  "patterns": [
+    "Benign vs malligant",
+    "Difference between benign and malligant cancer"
+  ],
+  "responses": [
+    "Benign tumors, while sometimes painful and potentially dangerous, do not pose the threat that malignant tumors do",
+    "A benign tumor has distinct, smooth, regular borders. A malignant tumor has irregular borders and grows faster than a benign tumor. A malignant tumor can also spread to other parts of your body. A benign tumor can become quite large, but it will not invade nearby tissue or spread to other parts of your body."
+  ]
+},
+{
+  "tag": "Who?",
+  "patterns": [
+    "Who gets cancer?",
+    "Who is affected by cancer",
+    "Which age group is affected by cancer?"
+  ],
+  "responses": [
+    "Anyone can get cancer, although the risk goes up with age. Your individual risk depends on factors such as whether you smoke, lifestyle choices such as what you eat and how much you exercise, your family history of cancer, and factors in your workplace and environment."
+  ]
+},
+{
+  "tag": "How it starts",
+  "patterns": [
+    "How does cancer start?"
+  ],
+  "responses": [
+    "Anyone can get cancer, although the risk goes up with age. Your individual risk depends on factors such as whether you smoke, lifestyle choices such as what you eat and how much you exercise, your family history of cancer, and factors in your workplace and environment.",
+    "Tumors can be benign (noncancerous) or malignant (cancerous). Cancerous tumors can attack and kill your bodys tissues. They can also spread to other parts of the body, causing new tumors to form there. This process is called metastasis and it represents cancer that has advanced to a late stage."
+  ]
+},
+{
+  "tag": "Genetic",
+  "patterns": [
+    "Is cancer is genetic disease?",
+    "Is cancer a heridetery disease?",
+    "Does cancer passes through parents to child?"
+  ],
+  "responses": [
+    "Cancer is, in fact, a genetic disease. This is because cancer is caused by mutations or changes to genes that control the way our cells function, causing them to behave irregularly.",
+    "Cancer is, in fact, a genetic disease. This is because cancer is caused by mutations or changes to genes that control the way our cells function, causing them to behave irregularly. These mutations can be inherited, as they are in about 5-10 percent of all cancer cases, but its much more likely that these gene changes occur during a persons lifetime due to other factors besides genetics. When someone has a known family history of hereditary cancer, genetic testing is often recommended."
+  ]
+},
+{
+  "tag": "Contagious",
+  "patterns": [
+    "Is cancer Contagious?"
+  ],
+  "responses": [
+    "No. Cancer isnt like the flu or a cold. You cant catch cancer from someone who has the disease."
+  ]
+},
+{
+  "tag": "Vaccince?",
+  "patterns": [
+    "Is there a vaccine for cancer?",
+    "Is there any vaccine exists for cure of cancer",
+    "Is there any vaccine exists for cure of cancer disease"
+  ],
+  "responses": [
+    "There is no vaccine for cancer. But there are vaccines for some viruses that are known to cause cancer, such as the human papillomavirus (HPV) and hepatitis B."
+  ]
+},
+{
+  "tag": "HPV",
+  "patterns": [
+    "HPV",
+    "What is HPV",
+    "Human papillomavirus"
+  ],
+  "responses": [
+    "Human papillomavirus (HPV) can cause cancer and getting vaccinated against it can help protect against the types of HPV that can lead to cervical, anal, throat, and penile cancers, along with some other forms of cancer. The HPV vaccine protects against many strains of the virus that can cause these cancers.",
+    "Human papillomavirus (HPV) is the most common sexually transmitted infection (STI) in the United States. HPV vaccines can prevent some of the health effects HPV causes.",
+    "HPV is a group of more than 200 related viruses, some of which are spread through vaginal, anal, or oral sex. Sexually transmitted HPV types fall into two groups, low risk and high risk. Low-risk HPVs mostly cause no disease."
+  ]
+},{
+  "tag":"Can it be cured",
+  "patterns":[
+    "Can cancer be cured",
+    "Treatments of cancer"
+  ],
+  "responses":[
+   "Whether a person's cancer can be cured depends on the type and stage of the cancer, the type of treatment they can get, and other factors",
+   "Some cancers are more likely to be cured than others. But each cancer needs to be treated differently. There isn't one cure for cancer.",
+   "Yes. When cancer treatment appears to be working, your doctor might say the cancer is in remission. A partial remission occurs when the cancer shrinks but doesnt disappear. A complete remission means there is no longer any sign of cancer. The longer a cancer is in complete remission, the less likely it is to come back, and at some point your doctor might say the cancer has been cured."
+  ]
+},
+{
+  "tag":"Stages",
+  "patterns":[
+    "What are the stages of cancer",
+    "What are different stages of cancer",
+    "Stages of cancer"
+  ],
+  "responses":[
+    "Cancer typically has four stages: I through IV (1 through 4). Some cancers even have a stage 0 (zero). Here’s what these stages mean:<br>Stage 0: This stage means the cancer is still found in the place it started and hasn't spread to nearby tissues. Stage 0 cancers are often curable.<br>Stage I: This stage usually represents a small tumor or cancer that hasn’t grown deeply into nearby tissues. It’s sometimes called early-stage cancer.<br>Stages II and III: Usually these stages represent larger cancers or tumors that have grown more deeply into nearby tissues. They also may have spread to lymph nodes. However, they haven’t spread to other organs or parts of the body.<br>Stage IV: Cancer in this stage has spread to other organs or parts of the body. It may be referred to as metastatic or advanced cancer."
+  ]
+},
+{
+  "tag":"symptoms",
+  "patterns":[
+    "Does cancer have symptoms",
+    "What are symptoms of cancer",
+    "Cancer symptoms",
+    "How do I know if I have cancer?"
+  ],
+  "responses":[
+    "Sometimes, but not always. The signs and symptoms of cancer depend on where the cancer is located and how big it is.",
+    "Some cancers grow in places where they won’t cause any signs or symptoms until they have advanced. For example, pancreatic cancer usually doesn’t cause any signs or symptoms until it grows large enough to press on other structures, causing pain, or manifesting signs of jaundice, which is yellowing of the skin",
+    "Some general signs and symptoms of cancer can include:<br>Unexplained weight loss<br>Fever<br>Fatigue<br>Pain<br>Skin changes<br>Bowel habit or bladder function changes<br>Sores that don’t heal<br>Unusual bleeding or discharge<br>A thickening or lump in a part of the body, such as a breast<br>Indigestion or trouble swallowing<br>A recent change in a wart or mole<br>A nagging cough or hoarseness<br>Keep in mind that there can be other reasons for these signs and symptoms. The only way to find out what’s causing them is to see your doctor. If you notice any of these symptoms and they don’t pass, it is time to get them looked at."
+  ]
+},
+{ 
+  "tag":"Drug working",
+  "patterns":[
+    "How do cancer drug work?",
+    ""
+  ],
+  "responses":[
+    "Newer drugs, called targeted drugs, block genes or proteins found in the cancer cells. Targeted therapy usually causes less harm to healthy cells, but it still has side effects.",
+    ""
+  ]
+},
+{
+  "tag":"When",
+  "patterns":[
+    "When should I get tested for cancer"
+  ],
+  "responses":[
+    "Recommendations for the types of screening tests and the ages you should get them vary according to cancer type. So, it’s a good idea to have a conversation with your doctor about what type of test you might need and when.",
+    "Talking to your physician at your annual check-up about risk factors and whether screening is appropriate for you is one way to stay on top of cancer. Don’t feel uncomfortable about bringing up concerns that you may have or questions about which screenings you should get. While an appointment for a cancer screening might seem daunting, screenings are usually quick and pain-free and can be life-saving."
+  ]
+},
+{
+  "tag":"types of cancer",
+  "patterns":[
+    "What are the cancer treatments?",
+    "Types of cancer treaments"
+  ],
+  "responses":[
+    "There are many types of cancer treatment. The types of treatment that you receive will depend on the type of cancer you have and how advanced it is.",
+    "1.Biomarker Testing for cancer treatment:<br>Biomarker testing is a way to look for genes, proteins, and other substances (called biomarkers or tumour markers) that can provide information about cancer. Biomarker testing can help you and your doctor choose a cancer treatment.<br>2.Chemotherapy:<br>Chemotherapy is a type of cancer treatment that uses drugs to kill cancer cells.<br>3.Hormone Therapy:<br>Hormone therapy is a treatment that slows or stops the growth of breast and prostate cancers that use hormones to grow.<br>4.Hyperthermia:<br>Hyperthermia is a type of treatment in which body tissue is heated to as high as 113 °F to help damage and kill cancer cells with little or no harm to normal tissue.<br> 5.Immunotherapy:<br>Immunotherapy is a type of cancer treatment that helps your immune system fight cancer.<br>6.Photodynamic Therapy:<br>Immunotherapy is a type of cancer treatment that helps your immune system fight cancer.<br>7.Radiation Therapy:<br>Radiation therapy is a type of cancer treatment that uses high doses of radiation to kill cancer cells and shrink tumours.<br>8.Stem cell transplant:<br>Stem cell transplants are procedures that restore stem cells that grow into blood cells in people who have had theirs destroyed by high doses of chemotherapy or radiation therapy.<br>9.Targeted Therapy:<br>Targeted therapy is a type of cancer treatment that targets the changes in cancer cells that help them grow, divide, and spread."
+  ]
+},
+{
+  "tag":"Lymphoma",
+  "patterns":[
+    "Lymphoma",
+    "What is lymphoma"
+  ],
+  "responses":[
+    "Lymphoma is cancer that begins in lymphocytes (T cells or B cells). These are disease-fighting white blood cells that are part of the immune system. In lymphoma, abnormal lymphocytes build up in lymph nodes and lymph vessels, as well as in other organs of the body."
+  ]
+},
+{
+  "tag":"Lukemia",
+  "patterns":[
+    "What is lukemia",
+    "Lukemia",
+    "Lukemia Cancer"
+  ],
+  "responses" :["Cancers that begin in the blood-forming tissue of the bone marrow are called leukemias. These cancers do not form solid tumors. Instead, large numbers of abnormal white blood cells (leukemia cells and leukemic blast cells) build up in the blood and bone marrow, crowding out normal blood cells. The low level of normal blood cells can make it harder for the body to get oxygen to its tissues, control bleeding, or fight infections."]
+
+},
+{
+  "tag":"Sarcoma",
+  "patterns":[
+    "Sarcoma",
+    "What is sarcoma"
+  ],
+  "responses":["Sarcomas are cancers that form in bone and soft tissues, including muscle, fat, blood vessels, lymph vessels, and fibrous tissue (such as tendons and ligaments)."]
+},
+{
+  "tag":"Carcinoma",
+  "patterns":[
+    "Carcinoma",
+    "What is Carcinoma"
+  ],
+  "responses":[
+    "Carcinomas are the most common type of cancer. They are formed by epithelial cells, which are the cells that cover the inside and outside surfaces of the body. There are many types of epithelial cells, which often have a column-like shape when viewed under a microscope."
+  ]
+},
+{
+  "tag":"metastasis",
+  "patterns":[
+    "Metastasis",
+    "What is metastasis"
+  ],
+  "responses":[
+    "In metastasis the cancer cells break away from where they first formed and form new tumors in other parts of the body."
+  ]
+},
+{
+  "tag":"Brain Cancer",
+  "patterns":[
+    "Brain Cancer"
+  ],
+  "responses":[
+    "Brain cancer happens when tumors form in the brain. This type of cancer can also affect the central spine. It can grow from many parts of the brain."
+  ]
+},
+{
+  "tag":"Brain-Cancer Causes",
+  "patterns":[
+    "What causes brain cancer"
+  ],
+  "responses":[
+    "Your doctor may not know the exact cause of your brain tumor, but the following factors can increase your risk:<br>Age – Brain cancer can affect people of any age. It is much more common among people over 60 years old. However, children are the only ones to get some types of brain tumors.<br>Radiation exposure – Radiation therapy that’s used to treat cancer can cause brain tumors to form. More common forms of radiation, like the emissions from power lines, cellphones and microwave ovens, have not been proven to cause brain tumors.<br>Family history of brain tumors – People with a family history of brain tumors or certain other syndromes are at greater risk for brain tumors."
+  ]
+},
+{
+  "tag":"Diagnosing brain cancer",
+  "patterns":[
+    "How brain cancer is diagnosed"
+  ],
+  "responses":[
+    "Brain tumors can be hard to diagnose. Because diagnosis can be complicated, a patient may have to get several different medical specialists involved. A number of tests may also be needed, such as:<br>Biopsy<br>Magnetic resonance imaging<br>Computed tomography scan<br>Angiogram<br>Spinal tap"
+  ]
+},
+{
+  "tag":"symptoms of brain cancer",
+  "patterns":[
+    "What are the sympotoms of brain cancer",
+    "Symptoms of brain cnacer"
+  ],
+"responses":[
+  "To get the most accurate and complete diagnosis, make sure you tell your doctor about all symptoms you’re having. The symptoms can include:<br>Headache<br>Changes in speech, vision or hearing<br>Nausea and vomiting<br>Lack of balance or movement problems<br>Muscle issues<br>Numbness or tingling<br>Changes in mood, personality or ability to concentrate<br>Brain tumors grow quickly and affect one of the body’s most important organs. If you have any of these symptoms, or suspect you have a brain tumor, contact your doctor right away."
+]
+},
+{
+  "tag":"brain tumour can come back",
+  "patterns":[
+    "Brain cancer can come back?"
+  ],
+  "responses":[
+    "Sometimes a patient’s tests may show that the brain tumor’s growth has stopped or there are no visible signs of a tumor. When that happens, the doctor may say the cancer is “in remission.” However, brain cancer can sometimes return."
+  ]
+},
+{
+  "tag":"coping with brain cancer",
+  "patterns":[
+    "How to cope with brain cancer"
+  ],
+  "responses":[
+    "Brain cancer can be hard on you and your family in many ways. Here are some things you can do to cope:<br>Talk with your cancer team – Your doctors should keep you informed about your treatment. They can also give you information on support groups in your area and help in other ways.<br>Connect with outside groups – Contact organizations like the American Cancer Society and others nearby your home.<br>Count on family and friends – Your close friends and family members can help you get through the tough times. Remember, everyone needs help dealing with this type of cancer."
+  ]
+},
+{
+  "tag":"Grade of Brain tumour",
+  "patterns":[
+    "What are the stages of Brain tumor",
+    "What are the grade levels of Brain tumour"
+  ],
+  "responses":[
+    "Instead of stages, the World Health Organization uses four grades to evaluate tumors of the central nervous system and brain.<br>Grade I has a low chance of spreading. It may be curable with surgery and no other treatment.<br>Grade II tumors are not very advanced but may come back after treatment. Some of these tumors often increase to higher grades of malignancy.<br>Grade III tumors show evidence of malignancy and have started to invade other areas.<br>Grade IV usually means that the disease is growing rapidly, including having metastasized to other areas of the body."
+  ]
+},
+{
+  "tag":"Stats of Breast Cancer",
+  "patterns":[
+    "Stats of Breast Cancer"
+  ],
+  "responses":[
+    "According to the Breast Cancer Research Foundation, a woman is diagnosed with breast cancer every two minutes in the United States.",
+    "As one of the most common cancers in the U.S., breast cancer affects about one in every eight women. It also affects about 2,500 men each year."
+  ]
+},
+{
+  "tag":"Breast Cancer",
+  "patterns":[
+    "Breast Cancer",
+    "What is breast Cancer"
+  ],
+  "responses":[
+    "It’s important to understand that most breast lumps are benign and not cancer (malignant). Non-cancer breast tumors are abnormal growths, but they do not spread outside of the breast. They are not life threatening, but some types of benign breast lumps can increase a woman's risk of getting breast cancer. Any breast lump or change needs to be checked by a health care professional to find out if it is benign or malignant (cancer) and if it might affect yours future cancer risk"
+  ]
+},
+{
+  "tag":"Breast Cancer start",
+  "patterns":[
+    "Where breast cancer starts?",
+    "Types of breast cancer",
+    "What are the type of breast cancer?"
+  ],
+  "responses":[
+    "The breast has different parts:<br>Lobules are the glands that make breast milk. Cancers that start here are called lobular cancers.<br>Ducts are small canals that come out from the lobules and carry the milk to the nipple. This is the most common place for breast cancer to start. Cancers that start here are called ductal cancers.<br>The nipple is the opening in the skin of the breast where the ducts come together and turn into larger ducts so the milk can leave the breast. The nipple is surrounded by slightly darker thicker skin called the areola. A less common type of breast cancer called Paget disease of the breast can start in the nipple.<br>The fat and connective tissue (stroma) surround the ducts and lobules and help keep them in place. A less common type of breast cancer called phyllodes tumor can start in the stroma.<br>Blood vessels and lymph vessels are also found in each breast. Angiosarcoma is a less common type of breast cancer that can start in the lining of these vessels. The lymph system is described below."
+  ]
+},
+{
+  "tag":"Breast cancer spread",
+  "patterns":[
+    "How breast cancer spreads"
+  ],
+  "responses":[
+    "Breast cancer can spread when the cancer cells get into the blood or lymph system and then are carried to other parts of the body."
+  ]
+},
+{
+"tag":"Breast Cancer sympotoms",
+"patterns":[
+  "What are the symptoms of breast cancer",
+  "Sympotoms of breast cancer"
+],
+"responses":[
+  "One of the first signs of breast cancer is when a hard lump(s) forms in the breast or the underarm area. For some patients, the lump may be painful and irregularly shaped. However, be aware that not all lumps indicate breast cancer. If you notice a lump, always get it checked out by your doctor.",
+  "Some common signs of breast cancer may include:<br><br>Size and shape of the breast changes<br>Persistent pain in the breast<br>Swelling and/or discoloration<br>Skin becomes puckered<br>Fluid starts leaking from the nipple<br>Itchy and scaly rash on the nipple<br>Unexpected weight loss"
+]
+},
+{
+"tag":"Who for breast cancer",
+"patterns":[
+  "Who's at risk for developing breast cancer",
+  "Who can have breast cancer"
+],
+"responses":[
+  "If you’re concerned about any of these risk factors, talk to your doctor. He or she can recommend a preventative action plan, when applicable. For women with a family history of breast cancer, genetic testing might be the right approach.",
+  "Here are a few, but not all, of the risk factors associated with breast cancer:<br>Age – Incidence rates are higher for women over the age of 50, however, adults of any age can develop breast cancer. Regular mammograms are typically recommended for women ages 40 and up.<br>Family History – Some cases of breast cancer are caused by inherited genetic mutations. If breast cancer runs in your immediate family, you may be more at risk.<br>Birth Control – Research reveals that taking birth control pills can cause a slightly elevated risk.<br>Hormone Therapy – Some post-menopause hormone therapies seem to increase a woman’s chances of developing breast cancer.<br>Pregnancy – While pregnancy itself is not a known risk factor, getting pregnant at an early or late age, or never getting pregnant at all, might contribute to increased risk.<br>Diet and Exercise – Becoming obese as an adult and a lack of regular physical exercise have both been linked to elevated breast cancer risk. This is particularly true if the excess fat is located in the waist, as opposed to the hips or thighs.<br>Alcohol – Drinking more than two alcoholic drinks a day has been directly linked to breast cancer risk in women."
+]
+},
+{
+"tag":"Breast Cancer Stages",
+"patterns":[
+  "What are the different stages of breast cancer",
+  "Different stages of breast cancer",
+  "Stages of breast cancer"
+],
+"responses":[
+  "Breast cancer is categorized into five different stages of breast cancer with subcategories within each. The stage is important because it is often used to help determine appropriate treatment plans and patient prognosis. The earlier the stage, the easier it is to treat the breast cancer in most cases.<br>Stage 0 – Cancerous, or malignant, cells have started to form in the breast<br>Stage I – The tumor has grown in size to about 2 centimeters or less.<br>Stage II – The tumor is now between 2 and 5 centimeters and has started to spread to nearby lymph nodes.<br>Stage III – Measuring about 2 inches now, the tumor is continuing to grow and spread to other lymph nodes and tissues.S<br>tage IV – The breast cancer has metastasized to other parts of the body and is no longer confined to just the breast region."
+]
+},
+{
+"tag": "Treatment for breast cancer",
+"patterns":[
+  "What are the treatment options for breast cancer",
+  "Treatments for breast cancer"
+],
+"responses":[
+  "Once cancer has been diagnosed, your doctors will create a personalized breast cancer treatment plan. While treatment depends on a variety of factors, most protocols will call for surgery, chemotherapy, hormone therapy, radiation therapy or a combination of methods in order to ensure the best outcome. In some cases, the entire breast will be removed in what is known as a mastectomy."
+]
+},
+{
+"tag":"Breast cancer in man",
+"patterns":[
+ "Can men have breast cancer"
+],
+"responses":[
+ "Although it is rare, men can get breast cancer. Learn about symptoms of breast cancer in men and things that may increase your risk.<br>Breast cancer is most often found in women, but men can get breast cancer too. About 1 out of every 100 breast cancers diagnosed in the United States is found in a man."
+]
+},
+{
+"tag":"Sympotoms for breast cancer in men",
+"patterns":[
+  "What are the symptoms of breast cancer in men",
+  "Syptoms for breast cancer in men"
+],
+"responses":[
+  "The most common symptoms of breast cancer in men are—<br>A lump or swelling in the breast.<br>Redness or flaky skin in the breast.<br>Irritation or dimpling of breast skin.<br>Nipple discharge.<br>Pulling in of the nipple or pain in the nipple area.<br>These symptoms can happen with other conditions that are not cancer. If you have any symptoms or changes, see your doctor right away."
+]
+},
+{
+"tag":"Lukemia",
+"patterns":[
+ "What is leukemia",
+ "Leukemia"
+],
+"responses":[
+"Unlike other cancers that affect one area, leukemia moves throughout the body by producing abnormal blood cells. Leukemia begins in the bone marrow and lymph nodes. From there, the cancer circulates throughout the body via the bloodstream, making swift, effective treatment imperative.",
+"Leukemia is cancer of the body's blood-forming tissues, including the bone marrow and the lymphatic system."
+]
+},
+{
+"tag":"Risks factors of leukemia",
+"patterns":[
+  "Wgat are the risk factors and causes of leukemia",
+  "Risk factors for leukemia",
+  "Causes of leukemia"
+],
+"responses":[
+  "Many people in the United States have at least one risk factor that increases their chances of developing leukemia. The most common risk factors include:<br>Smoking or exposure to smoking<br>Previous chemotherapy or radiation therapy<br>Some genetic disorders, such as Down syndrome<br>Exposure to chemicals, such as benzene<br>Previous blood disorders<br>By receiving regular screenings from physicians and moderating common controllable risk factors, such as smoking or chemical exposure, high-risk individuals can decrease their likelihood of developing leukemia or can catch the disease early for the best possible outcome."
+]
+},
+{
+"tag":"Sign and symptoms of leukemia",
+"patterns":[
+  "What are the signs and symptoms of leukemia",
+  "Signs of Leukemia",
+  "Symptoms of leukemia",
+  "What are the major signs of leukemia",
+  "Major symptoms of leukemia"
+],
+"responses":[
+  "Effective leukemia treatment depends on identifying and diagnosing the illness as early as possible. In many cases, doctors notice abnormalities in a blood test long before symptoms appear. The following major symptoms, however, can alert patients and physicians to a problem:<br>Bruising and bleeding easily<br>Weakened immune system, leading to frequent infections and illnesses<br>Symptoms of anemia including:<br>Fatigue<br>Weakness<br>Chest pain<br>Dizziness<br>Cold hands and feet<br>If you or a loved one is experiencing these symptoms, a physician can screen for leukemia by administering a simple blood test."
+]
+},
+{
+"tag":"Leukemia Treatment",
+"patterns":[
+  "What are the treatment options are there for leukemia",
+  "Treatment for leukemia",
+  ""
+],
+"responses":[
+ "No two cases are alike, and effective treatment requires a personalized plan that takes individual needs and situations into account. The final treatment plan may use one or more of the following modalities:<br>CHEMOTHERAPY<br>IMMUNOTHERAPY<br>TARGETED THERAPY<br>RADIATION THERAPY<br>BLOOD & MARROW TRANSPLANTATION" 
+]
+},
+{
+"tag":"Leukemia vs Blood cancer",
+"patterns":[
+  "Leukemia vs blood cancer",
+  "Is the leukemia and blood cnacer are same",
+  "Is leukemia a type of blood cancer"
+],
+"responses":[
+  "Leukemia is a blood cancer that originates in the blood and bone marrow. It occurs when the body creates too many abnormal white blood cells and interferes with the bone marrow's ability to make red blood cells and platelets.",
+  "Cancer can affect any part of the body, including the blood. Leukemia and lymphoma are both forms of blood cancer, but they affect the body in different ways. The main difference is that leukemia affects the blood and bone marrow, while lymphomas mainly affect the lymph nodes.",
+  ""
+]
+},
+{
+"tag":"Life expentancy with blood cancer",
+"patterns":[
+  "What is the expentancy of someone with blood cancer",
+  "How many a person can survive with blood cancer"
+],
+"responses":[
+ "Patients with Chronic Lymphocytic Leukemia have an 88.2 percent 5-year survival rate. Hodgkin Lymphoma: 88.5 percent for all patients are alive 5 years after diagnosis; 94.4 percent for those younger than 45. Non-Hodgkin Lymphoma: 74.7 percent for all patients are alive 5 years after diagnosis." 
+]
+},
+{
+"tag":"Blood cancer curable",
+"patterns":[
+  "Which type of blood cancer is curable",
+  "Is luekemia can be cured?"
+],
+"responses":[
+  "Leukemia is perfectly curable at the early stage."
+]
+}
+
+    
   ]
 }
+
