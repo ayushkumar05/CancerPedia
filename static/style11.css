@@ -26,7 +26,12 @@ html {
   --smoke: whitesmoke;
   --dark-gray: #999;
 }
+h3{
+  padding-top: 4%;
+  font-size: 3vw;
+  color: rgb(10, 10, 10);
 
+}
 body {
   font-family: "Lato", sans-serif;
   background: var(--dark);
@@ -298,7 +303,7 @@ body {
 
 .messages__item {
   margin-top: 10px;
-  background: #e0e0e0;
+  background: #2fa9e6;
   padding: 8px 12px;
   max-width: 70%;
 }
@@ -391,7 +396,7 @@ body {
   position: relative;
   width: 400px;
   height: 500px;
-  background: white;
+  background: rgb(255, 255, 255);
   margin: 20px;
   border-radius: 20px;
   overflow: hidden;
@@ -514,7 +519,7 @@ h1 {
   font-size: 2rem;
   font-weight: 600;
   padding: 1.75rem 3.5rem;
-  margin: 5rem 2rem;
+  align-items: bottom;
   border: none;
   background-color: #fff;
   color: #444;
@@ -582,4 +587,6 @@ p {
 
 .para {
   font-size: 1rem;
+  padding: 4%;
+  text-align: left;
 }
